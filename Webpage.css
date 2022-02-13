@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+     font-family:sans-serif;
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+
+}
+.navbar{
+    background-image:linear-gradient(to right,lightyellow,rgb(65, 221, 156));
+    padding:10px !important;
+}
+.navbar-brand img{
+    height :50px;
+    padding-left:20px ;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color:black;
+    font-weight: 500;
+
+}
+.bi {
+    color:black;
+    font-size: 20px;
+
+}
+#banner{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-images-of-nature-download.jpg");
+    color:black ;
+    padding-top: 20%;
+    
+}
+.title{
+    font-size: 50px;
+     font-weight: 600;
+     margin-top:100px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:2px 2px gray;
+
+
+}
+.con{
+    font-size: 35px;
+    font-weight: 600;
+    text-align:center;
+    font-family:  sans-serif;
+    margin-bottom: 40px;
+    text-shadow:2px 2px gray;
+
+
+}
+.bottom_image{
+    width:100%;
+}
+#Services{
+padding:40px;
+}
+.Service-img{
+    width:300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Services p{
+    text-align-last: left;
+}
